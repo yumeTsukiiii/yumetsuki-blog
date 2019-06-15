@@ -6,7 +6,7 @@ import Mine from '../pages/mine/mine'
 
 function mainRouter() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route exact path="/" component={Main}/>
                 <Route path="/mine" component={Mine}/>
