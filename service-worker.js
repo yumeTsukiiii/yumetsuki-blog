@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yumetsuki-blog/precache-manifest.9d620d2ee6f4643117ca1a327674c58c.js"
+  "/yumetsuki-blog/precache-manifest.f2fe09278c2697f26d17abef2adb3620.js"
 );
 
 self.addEventListener('message', (event) => {
