@@ -1,0 +1,14 @@
+.scroll-view {
+    overflow: hidden;
+
+}
+
+.scroll-y {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.scroll-x {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
