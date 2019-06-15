@@ -11,7 +11,7 @@ function News(props) {
     const axios = props.axios;
 
     useEffect(() => {
-        axios('/news.json').then(res => {
+        axios(`${process.env.PUBLIC_URL}/news.json`).then(res => {
             setNews(res.data)
         }).catch(error => {
             console.log(error);

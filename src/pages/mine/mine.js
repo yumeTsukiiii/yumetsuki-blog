@@ -99,7 +99,7 @@ const useStyles = makeStyles(theme => ({
 export default function Mine(props) {
 
     const music = {
-        src: '/神代あみ - MUGEN∞MIRAI ~天神乱漫 エンディングテーマ~.mp3',
+        src: `${process.env.PUBLIC_URL}/神代あみ - MUGEN∞MIRAI ~天神乱漫 エンディングテーマ~.mp3`,
         name: '~天神乱漫 エンディングテーマ~'
     };
     const classes = useStyles();

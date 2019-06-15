@@ -12,7 +12,7 @@ function Article(props) {
     const axios = props.axios;
 
     useEffect(() => {
-        axios('/articles.json').then(res => {
+        axios(`${process.env.PUBLIC_URL}/articles.json`).then(res => {
             setAriticles(res.data)
         }).catch(error => {
             console.log(error);

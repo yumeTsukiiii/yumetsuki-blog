@@ -57,7 +57,7 @@ function ArticleDialog(props) {
     }, []);
 
     function handleClickOpen() {
-        props.axios(`/articles/${props.file}`).then(res => {
+        props.axios(`${process.env.PUBLIC_URL}/articles/${props.file}`).then(res => {
             setContent(res.data);
             setOpen(true);
         }).catch(error => {
