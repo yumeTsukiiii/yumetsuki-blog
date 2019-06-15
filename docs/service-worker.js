@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/yumetsuki-blog/precache-manifest.d76b1015e0f8f95240fdb3e2e9cc20cd.js"
+=======
+  "./precache-manifest.ceb430e9b0d7ff17ba91acad001a48cd.js"
+>>>>>>> master
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +37,11 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
+<<<<<<< HEAD
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/yumetsuki-blog/index.html"), {
+=======
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("./index.html"), {
+>>>>>>> master
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

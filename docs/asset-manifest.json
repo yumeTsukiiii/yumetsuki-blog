@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/yumetsuki-blog/static/css/main.94018e24.chunk.css",
     "main.js": "/yumetsuki-blog/static/js/main.47ac35e5.chunk.js",
     "main.js.map": "/yumetsuki-blog/static/js/main.47ac35e5.chunk.js.map",
@@ -17,5 +18,24 @@
     "static/media/mine-bilibili.png": "/yumetsuki-blog/static/media/mine-bilibili.d1d9119e.png",
     "static/media/index.css": "/yumetsuki-blog/static/media/roboto-latin-900italic.bc833e72.woff",
     "static/media/shinku-horizontal-back.jpeg": "/yumetsuki-blog/static/media/shinku-horizontal-back.2c445da1.jpeg"
+=======
+    "main.css": "./static/css/main.94018e24.chunk.css",
+    "main.js": "./static/js/main.47ac35e5.chunk.js",
+    "main.js.map": "./static/js/main.47ac35e5.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.bbfd1532.chunk.css": "./static/css/2.bbfd1532.chunk.css",
+    "static/js/2.33be2b7c.chunk.js": "./static/js/2.33be2b7c.chunk.js",
+    "static/js/2.33be2b7c.chunk.js.map": "./static/js/2.33be2b7c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.ceb430e9b0d7ff17ba91acad001a48cd.js": "./precache-manifest.ceb430e9b0d7ff17ba91acad001a48cd.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.bbfd1532.chunk.css.map": "./static/css/2.bbfd1532.chunk.css.map",
+    "static/css/main.94018e24.chunk.css.map": "./static/css/main.94018e24.chunk.css.map",
+    "static/media/github.jpg": "./static/media/github.14c8c443.jpg",
+    "static/media/mine-bilibili.png": "./static/media/mine-bilibili.d1d9119e.png",
+    "static/media/index.css": "./static/media/roboto-latin-900italic.bc833e72.woff",
+    "static/media/shinku-horizontal-back.jpeg": "./static/media/shinku-horizontal-back.2c445da1.jpeg"
+>>>>>>> master
   }
 }

@@ -2,6 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9cada40-0605-447b-9b18-8d1ecbd540fc" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/articles/first.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/news.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/precache-manifest.28d321dbca049e098087cb6ec645d856.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/service-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/shinku-website.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/2.94155858.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/2.94155858.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/main.94018e24.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/css/main.94018e24.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/2.33be2b7c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/2.33be2b7c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/main.47ac35e5.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/main.47ac35e5.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime~main.a8a9905a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/js/runtime~main.a8a9905a.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/github.14c8c443.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/mine-bilibili.d1d9119e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-100.987b8457.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-100.e9dbbe8a.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-100italic.6232f43d.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-100italic.d704bb3d.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-300.55536c8e.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-300.a1471d1d.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-300italic.210a7c78.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-300italic.d69924b9.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-400.5d4aeb4e.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-400.bafb105b.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-400italic.9680d5a0.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-400italic.d8bcbe72.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-500.28546717.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-500.de8b7431.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-500italic.510dec37.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-500italic.ffcc050b.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-700.037d8304.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-700.cf6613d1.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-700italic.010c1aee.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-700italic.846d1890.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-900.19b7a0ad.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-900.8c2ade50.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-900italic.7b770d6c.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/roboto-latin-900italic.bc833e72.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/static/media/shinku-horizontal-back.2c445da1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/神代あみ - MUGEN∞MIRAI ~天神乱漫 エンディングテーマ~.mp3" beforeDir="false" />
+>>>>>>> master
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -91,10 +143,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="607">
               <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
+=======
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -166,7 +230,11 @@
             <path>
               <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+>>>>>>> master
             </path>
           </expand>
           <select />
@@ -252,12 +320,20 @@
       <workItem from="1560519957577" duration="258000" />
       <workItem from="1560520404513" duration="5874000" />
       <workItem from="1560597054547" duration="2337000" />
+<<<<<<< HEAD
       <workItem from="1560600647985" duration="13271000" />
+=======
+      <workItem from="1560600647985" duration="13053000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="40318000" />
+=======
+    <option name="totallyTimeSpent" value="40100000" />
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -571,6 +647,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -581,6 +658,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> master
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -590,10 +669,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="607">
           <caret line="39" column="58" selection-start-line="39" selection-start-column="58" selection-end-line="39" selection-end-column="58" />
         </state>
       </provider>
     </entry>
+=======
+        <state relative-caret-position="357">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="92" selection-start-column="92" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+>>>>>>> master
   </component>
 </project>
