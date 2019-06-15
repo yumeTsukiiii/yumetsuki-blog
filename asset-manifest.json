@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/yumetsuki-blog/static/css/main.94018e24.chunk.css",
+    "main.js": "/yumetsuki-blog/static/js/main.47ac35e5.chunk.js",
+    "main.js.map": "/yumetsuki-blog/static/js/main.47ac35e5.chunk.js.map",
+    "runtime~main.js": "/yumetsuki-blog/static/js/runtime~main.5e687dbd.js",
+    "runtime~main.js.map": "/yumetsuki-blog/static/js/runtime~main.5e687dbd.js.map",
+    "static/css/2.f958a6dd.chunk.css": "/yumetsuki-blog/static/css/2.f958a6dd.chunk.css",
+    "static/js/2.33be2b7c.chunk.js": "/yumetsuki-blog/static/js/2.33be2b7c.chunk.js",
+    "static/js/2.33be2b7c.chunk.js.map": "/yumetsuki-blog/static/js/2.33be2b7c.chunk.js.map",
+    "index.html": "/yumetsuki-blog/index.html",
+    "precache-manifest.d76b1015e0f8f95240fdb3e2e9cc20cd.js": "/yumetsuki-blog/precache-manifest.d76b1015e0f8f95240fdb3e2e9cc20cd.js",
+    "service-worker.js": "/yumetsuki-blog/service-worker.js",
+    "static/css/2.f958a6dd.chunk.css.map": "/yumetsuki-blog/static/css/2.f958a6dd.chunk.css.map",
+    "static/css/main.94018e24.chunk.css.map": "/yumetsuki-blog/static/css/main.94018e24.chunk.css.map",
+    "static/media/github.jpg": "/yumetsuki-blog/static/media/github.14c8c443.jpg",
+    "static/media/mine-bilibili.png": "/yumetsuki-blog/static/media/mine-bilibili.d1d9119e.png",
+    "static/media/index.css": "/yumetsuki-blog/static/media/roboto-latin-900italic.bc833e72.woff",
+    "static/media/shinku-horizontal-back.jpeg": "/yumetsuki-blog/static/media/shinku-horizontal-back.2c445da1.jpeg"
+  }
+}
