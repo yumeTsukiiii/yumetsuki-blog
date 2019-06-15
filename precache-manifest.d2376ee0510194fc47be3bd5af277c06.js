@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "851a72fd17c0e720a491b84e734f766a",
+    "revision": "6f17398ec1e0b83c89550902713016f7",
     "url": "/yumetsuki-blog/index.html"
   },
   {
-    "revision": "1f03d957db3c1a9bf2fd",
+    "revision": "ec2064428de96c907b79",
     "url": "/yumetsuki-blog/static/css/2.f958a6dd.chunk.css"
   },
   {
-    "revision": "232373f16cfae6f9d655",
+    "revision": "8419adbf688993d26565",
     "url": "/yumetsuki-blog/static/css/main.94018e24.chunk.css"
   },
   {
-    "revision": "1f03d957db3c1a9bf2fd",
-    "url": "/yumetsuki-blog/static/js/2.33be2b7c.chunk.js"
+    "revision": "ec2064428de96c907b79",
+    "url": "/yumetsuki-blog/static/js/2.0b724412.chunk.js"
   },
   {
-    "revision": "232373f16cfae6f9d655",
-    "url": "/yumetsuki-blog/static/js/main.47ac35e5.chunk.js"
+    "revision": "8419adbf688993d26565",
+    "url": "/yumetsuki-blog/static/js/main.b39c044a.chunk.js"
   },
   {
     "revision": "60aa56e7cb3d9475ee36",
