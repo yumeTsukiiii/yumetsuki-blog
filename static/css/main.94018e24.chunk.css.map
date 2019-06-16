@@ -1,1 +1,0 @@
-{"version":3,"sources":["scroll-view.css"],"names":[],"mappings":"AAAA,aACI,eAEJ,CAEA,UACI,iBAAkB,CAClB,iBACJ,CAEA,UACI,iBAAkB,CAClB,iBACJ","file":"main.94018e24.chunk.css","sourcesContent":[".scroll-view {\n    overflow: hidden;\n\n}\n\n.scroll-y {\n    overflow-x: hidden;\n    overflow-y: scroll;\n}\n\n.scroll-x {\n    overflow-y: hidden;\n    overflow-x: scroll;\n}"]}
