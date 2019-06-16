@@ -15,6 +15,8 @@ import CardContent from "@material-ui/core/CardContent";
 import ScrollView from "../../../lib/components/scroll-view/ScrollView";
 import backgroundImage from "../../../assets/shinku-horizontal-back.jpeg";
 import {useTheme} from "@material-ui/styles";
+import LoadingSnack from "../../../lib/components/loading-snack/LoadingSnack";
+import "./refix-markdown-css.css";
 
 const useStyles = makeStyles(theme => ({
     title: {
@@ -51,17 +53,20 @@ function ArticleDialog(props) {
     const [open, setOpen] = React.useState(false);
     const [content, setContent] = React.useState("");
     const [mainHeight, setMainHeight] = useState(0);
+    const [snackOpen, setSnackOpen] = useState(false);
 
     useEffect(() => {
         setMainHeight(window.innerHeight);
     }, []);
 
     function handleClickOpen() {
+        setSnackOpen(true);
         props.axios(`${process.env.PUBLIC_URL}/articles/${props.file}`).then(res => {
             setContent(res.data);
             setOpen(true);
+            setSnackOpen(false);
         }).catch(error => {
-
+            setSnackOpen(false)
         });
     }
 
@@ -90,12 +95,13 @@ function ArticleDialog(props) {
                     <ScrollView height={mainHeight - theme.mixins.toolbar.minHeight }>
                         <Card classes={{root: classes.cardBackground}}>
                             <CardContent>
-                                <ReactMarkdown source={content} escapeHtml={false} />
+                                <ReactMarkdown source={content} className={"markdown"}/>
                             </CardContent>
                         </Card>
                     </ScrollView>
                 </div>
             </Dialog>
+            <LoadingSnack open={snackOpen}/>
         </div>
     );
 }

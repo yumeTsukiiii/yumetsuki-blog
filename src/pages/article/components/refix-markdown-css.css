@@ -1,0 +1,16 @@
+.markdown {
+    color: #0009;
+}
+
+.markdown blockquote {
+    padding: 0 1em;
+    border-left: 0.25em solid #64b5f6;
+}
+
+.markdown p {
+    font-size: 18px;
+}
+
+.markdown ul li {
+    font-size: 20px;
+}

@@ -161,7 +161,7 @@ export default function Mine(props) {
             <Divider />
             <List>
                 {drawerNavList.map(item => (
-                    <ListItem button key={item.name} onClick={item.onClick}>
+                    <ListItem button key={item.name} onClick={() => { item.onClick(); if (mobileOpen) setMobileOpen(false);}}>
                         <ListItemIcon classes={{root: classes.drawerNavItem}}>{item.icon}</ListItemIcon>
                         <ListItemText primary={item.name} />
                     </ListItem>

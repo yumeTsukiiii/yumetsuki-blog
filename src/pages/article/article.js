@@ -4,17 +4,22 @@ import {withAxios} from 'react-axios';
 import ArticleDialog from "./components/ArticleDialog";
 import Chip from "@material-ui/core/Chip";
 import {Grid} from "@material-ui/core";
+import LoadingSnack from "../../lib/components/loading-snack/LoadingSnack";
 
 function Article(props) {
 
-    const [articles, setAriticles] = useState([]);
+    const [articles, setArticles] = useState([]);
+    const [snackOpen, setSnackOpen] = useState(false);
 
     const axios = props.axios;
 
     useEffect(() => {
+        setSnackOpen(true);
         axios(`${process.env.PUBLIC_URL}/articles.json`).then(res => {
-            setAriticles(res.data)
+            setArticles(res.data);
+            setSnackOpen(false);
         }).catch(error => {
+            setSnackOpen(false);
             console.log(error);
         })
     }, [axios]);
@@ -36,6 +41,7 @@ function Article(props) {
                 )) : <StyledSimpleCard title="梦月暂时没有任何文章" content="梦月很懒没有写任何东西"/>
             }
             <div style={{marginBottom: '48px'}}/>
+            <LoadingSnack open={snackOpen}/>
         </Fragment>
     );
 }

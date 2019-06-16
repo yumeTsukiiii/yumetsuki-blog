@@ -3,17 +3,22 @@ import StyledSimpleCard from "../../lib/components/styled-simple-card/StyledSimp
 import {withAxios} from 'react-axios';
 import {Grid} from "@material-ui/core";
 import Chip from "@material-ui/core/Chip";
+import LoadingSnack from "../../lib/components/loading-snack/LoadingSnack";
 
 function News(props) {
 
     const [news, setNews] = useState([]);
+    const [snackOpen, setSnackOpen] = useState(false);
 
     const axios = props.axios;
 
     useEffect(() => {
+        setSnackOpen(true);
         axios(`${process.env.PUBLIC_URL}/news.json`).then(res => {
+            setSnackOpen(false);
             setNews(res.data)
         }).catch(error => {
+            setSnackOpen(false);
             console.log(error);
         })
     }, [axios]);
@@ -33,6 +38,7 @@ function News(props) {
                 )) : <StyledSimpleCard title="梦月暂时没有任何动态" content="梦月很懒没有写任何东西"/>
             }
             <div style={{marginBottom: '48px'}}/>
+            <LoadingSnack open={snackOpen}/>
         </Fragment>
     );
 }
