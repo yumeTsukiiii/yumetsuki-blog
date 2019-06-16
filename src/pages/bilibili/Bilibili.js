@@ -25,7 +25,8 @@ const useStyles = makeStyles(theme => ({
         fontWeight: 400
     },
     image: {
-        maxWidth: '70%'
+        maxWidth: '70%',
+        height: 'auto'
     }
 }));
 
@@ -51,7 +52,7 @@ function Bilibili(props) {
                 <CardActionArea>
                     <CardHeader title="不去看看up的主页up就要不开心了！(嘟嘴)" classes={{title: classes.title}}/>
                     <CardContent>
-                        <Grid container justify="center">
+                        <Grid container direction="column" alignItems="center">
                             <img alt="bilibili-img" src={MineBilibili} className={classes.image}/>
                         </Grid>
                     </CardContent>
