@@ -52,7 +52,7 @@ const ClickEffectApp = function () {
 
     return (
         <div>
-            <FavoriteIcon id="effect-icon" className={"click-effect click-absolute"} color="primary.text"/>
+            <FavoriteIcon id="effect-icon" className={"click-effect click-absolute"} style={{color: 'rgb(255, 82, 82)'}}/>
             <App/>
         </div>
     );

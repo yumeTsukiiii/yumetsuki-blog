@@ -1,0 +1,250 @@
+.background-rotate-scale {
+    animation: rotate-scale 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotate-scale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+
+    to {
+        transform: rotate(1080deg) scale(0);
+    }
+}
+
+@-webkit-keyframes rotate-scale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+
+    to {
+        transform: rotate(1080deg) scale(0);
+    }
+}
+
+@-o-keyframes rotate-scale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+
+    to {
+        transform: rotate(1080deg) scale(0);
+    }
+}
+
+@-moz-keyframes rotate-scale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+
+    to {
+        transform: rotate(1080deg) scale(0);
+    }
+}
+
+.background-disappear {
+    animation: opacity-up;
+    animation-duration: 3s;
+}
+
+.background-cover {
+    position: absolute;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 99;
+    background-color: #fff;
+}
+
+@keyframes opacity-up {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes opacity-up {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes opacity-up {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes opacity-up {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.star-image {
+    max-width: 30%;
+    animation: rotate;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@media (min-width: 600px) {
+    .star-image {
+        max-width: 10%;
+    }
+}
+
+.image {
+    width: 100%;
+    transform: scale(0.8);
+    padding: 0 1vw
+}
+
+.image-chosen {
+    animation: image-chosen;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.image-not-chosen {
+    animation: image-not-chosen;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes image-chosen {
+    from {
+        transform: scale(0.8) rotateY(0deg);
+    }
+
+    to {
+        transform: scale(1) rotateY(360deg);
+    }
+}
+
+@keyframes image-not-chosen {
+    from {
+        transform: scale(1) rotateY(360deg);
+    }
+
+    to {
+        transform: scale(0.8) rotateY(0deg);
+    }
+}
+
+@-webkit-keyframes image-chosen {
+    from {
+        transform: scale(0.8) rotateY(0deg);
+    }
+
+    to {
+        transform: scale(1) rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes image-not-chosen {
+    from {
+        transform: scale(1) rotateY(360deg);
+    }
+
+    to {
+        transform: scale(0.8) rotateY(0deg);
+    }
+}
+
+@-o-keyframes image-chosen {
+    from {
+        transform: scale(0.8) rotateY(0deg);
+    }
+
+    to {
+        transform: scale(1) rotateY(360deg);
+    }
+}
+
+@-o-keyframes image-not-chosen {
+    from {
+        transform: scale(1) rotateY(360deg);
+    }
+
+    to {
+        transform: scale(0.8) rotateY(0deg);
+    }
+}
+
+@-moz-keyframes image-chosen {
+    from {
+        transform: scale(0.8) rotateY(0deg);
+    }
+
+    to {
+        transform: scale(1) rotateY(360deg);
+    }
+}
+
+@-moz-keyframes image-not-chosen {
+    from {
+        transform: scale(1) rotateY(360deg);
+    }
+
+    to {
+        transform: scale(0.8) rotateY(0deg);
+    }
+}
