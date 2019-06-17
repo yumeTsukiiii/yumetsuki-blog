@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8a479f6f4041fc18b05aef1681049c5a",
+    "revision": "86c42104930de9a364f1c2baf5bd0cd1",
     "url": "/yumetsuki-blog/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yumetsuki-blog/static/css/2.f958a6dd.chunk.css"
   },
   {
-    "revision": "9a81ce6569e76c68a877",
+    "revision": "3001f14efb0354de7f2b",
     "url": "/yumetsuki-blog/static/css/main.a0d09f5e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yumetsuki-blog/static/js/2.b72f1e26.chunk.js"
   },
   {
-    "revision": "9a81ce6569e76c68a877",
-    "url": "/yumetsuki-blog/static/js/main.94f24c1b.chunk.js"
+    "revision": "3001f14efb0354de7f2b",
+    "url": "/yumetsuki-blog/static/js/main.2ef47661.chunk.js"
   },
   {
     "revision": "60aa56e7cb3d9475ee36",
