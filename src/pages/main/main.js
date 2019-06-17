@@ -11,6 +11,7 @@ import Button from "@material-ui/core/Button/index";
 import Grid from "@material-ui/core/Grid/index";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward"
 import Footer from "./components/Footer";
+import './main.css'
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -85,7 +86,7 @@ export default function Main(props) {
                  style={{ height: mainHeight - theme.mixins.toolbar.minHeight }}>
                 <ScrollView height={scrollViewHeight}>
                     <div id='content-margin-div' className={classes.contentMargin}/>
-                    <Grid container direction="column"
+                    <Grid container direction="column" className={"main-content"}
                           alignItems="center">
                         <Typography variant="h6" className={classes.title}>
                             乌拉拉！

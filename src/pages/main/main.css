@@ -1,0 +1,54 @@
+.main-content {
+    animation:main-transform 1.5s;
+    -moz-animation:main-transform 1.5s; /* Firefox */
+    -webkit-animation:main-transform 1.5s; /* Safari and Chrome */
+    -o-animation:main-transform 1.5s; /* Opera */
+}
+
+@keyframes main-transform {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes main-transform {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes main-transform {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes main-transform {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}

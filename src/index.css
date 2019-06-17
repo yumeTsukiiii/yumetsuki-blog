@@ -1,0 +1,58 @@
+.click-effect {
+    animation: click-effect-animation 1s;
+    animation-fill-mode: forwards;
+    z-index: 9999;
+}
+
+.click-absolute {
+    position: absolute;
+    top: 0;
+}
+
+@keyframes click-effect-animation {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(3);
+    }
+}
+
+@-webkit-keyframes click-effect-animation {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(3);
+    }
+}
+
+@-moz-keyframes click-effect-animation {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(3);
+    }
+}
+
+@-o-keyframes click-effect-animation {
+    from {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    to {
+        opacity: 0;
+        transform: scale(4);
+    }
+}

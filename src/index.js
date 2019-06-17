@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import MainRouter from './router/router';
 import 'typeface-roboto';
@@ -6,6 +6,8 @@ import { ThemeProvider } from "@material-ui/styles";
 import { createMuiTheme } from '@material-ui/core/styles';
 import amber from '@material-ui/core/colors/amber'
 import blue from '@material-ui/core/colors/blue'
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import './index.css'
 
 const theme = createMuiTheme({
     palette: {
@@ -34,4 +36,26 @@ const App = () => (
     </ThemeProvider>
 );
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+const ClickEffectApp = function () {
+
+    useEffect(() => {
+        let effectIcon = document.getElementById("effect-icon");
+        document.body.onclick = (e) => {
+            effectIcon.classList.remove('click-effect');
+            setTimeout(() => {
+                effectIcon.classList.add('click-effect');
+            }, 0);
+            effectIcon.style.left = `${e.clientX - effectIcon.clientWidth / 2}px`;
+            effectIcon.style.top = `${e.clientY - effectIcon.clientHeight / 2}px`;
+        }
+    }, []);
+
+    return (
+        <div>
+            <FavoriteIcon id="effect-icon" className={"click-effect click-absolute"} color="primary.text"/>
+            <App/>
+        </div>
+    );
+};
+
+ReactDOM.render(<ClickEffectApp/>, document.getElementById('root'));
