@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5523857-a490-432f-b6f5-b90f383d9dfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/七海.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/六芒星.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/前辈.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/千咲.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/宁宁tip-confirm.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/宁宁tip-error.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/羽月.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/锉刀.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/yuzu-auth/YuzuAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/yuzu-auth/yuzu-auth.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
-    </list>
+    <list default="true" id="f5523857-a490-432f-b6f5-b90f383d9dfe" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,7 +17,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/yuzu-auth/YuzuAuth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="270">
               <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
@@ -119,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -365,12 +347,12 @@
       <workItem from="1560741343234" duration="3825000" />
       <workItem from="1560752262414" duration="103000" />
       <workItem from="1560759046369" duration="5432000" />
-      <workItem from="1560771360972" duration="4301000" />
+      <workItem from="1560771360972" duration="4664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21771000" />
+    <option name="totallyTimeSpent" value="22134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,7 +634,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/yuzu-auth/YuzuAuth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="270">
           <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />

@@ -43,10 +43,10 @@ const ClickEffectApp = function () {
         document.body.onclick = (e) => {
             effectIcon.classList.remove('click-effect');
             setTimeout(() => {
+                effectIcon.style.left = `${e.clientX - effectIcon.clientWidth / 2}px`;
+                effectIcon.style.top = `${e.clientY - effectIcon.clientHeight / 2}px`;
                 effectIcon.classList.add('click-effect');
             }, 0);
-            effectIcon.style.left = `${e.clientX - effectIcon.clientWidth / 2}px`;
-            effectIcon.style.top = `${e.clientY - effectIcon.clientHeight / 2}px`;
         }
     }, []);
 

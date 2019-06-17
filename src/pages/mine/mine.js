@@ -133,7 +133,7 @@ export default function Mine(props) {
             icon: <HomeIcon/>,
             name: '返回主页',
             onClick: () => {
-                props.history.replace("/");
+                props.history.replace("/main");
             }
         }
     ];
