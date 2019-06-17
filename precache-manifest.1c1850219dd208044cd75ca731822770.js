@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27be8cb02924f4b68fb1fcf41680c097",
+    "revision": "46bfaec3872cf16cc45fcdb6bb02ddfe",
     "url": "/yumetsuki-blog/index.html"
   },
   {
-    "revision": "3599f31f6c48d3314b21",
+    "revision": "363925e352b8f28df9b2",
     "url": "/yumetsuki-blog/static/css/2.f958a6dd.chunk.css"
   },
   {
-    "revision": "2ab141febb099ae37ae1",
-    "url": "/yumetsuki-blog/static/css/main.b40264d6.chunk.css"
+    "revision": "dc8ad01ca49708b33d28",
+    "url": "/yumetsuki-blog/static/css/main.557c8fc7.chunk.css"
   },
   {
-    "revision": "3599f31f6c48d3314b21",
-    "url": "/yumetsuki-blog/static/js/2.bcc9fd6c.chunk.js"
+    "revision": "363925e352b8f28df9b2",
+    "url": "/yumetsuki-blog/static/js/2.b72f1e26.chunk.js"
   },
   {
-    "revision": "2ab141febb099ae37ae1",
-    "url": "/yumetsuki-blog/static/js/main.e68f9e4a.chunk.js"
+    "revision": "dc8ad01ca49708b33d28",
+    "url": "/yumetsuki-blog/static/js/main.94f24c1b.chunk.js"
   },
   {
     "revision": "60aa56e7cb3d9475ee36",
@@ -130,5 +130,37 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2c445da16473f86ead7f9bbf3cb8bf6c",
     "url": "/yumetsuki-blog/static/media/shinku-horizontal-back.2c445da1.jpeg"
+  },
+  {
+    "revision": "e662dbbe2800c02a5bd0b920ed8b2708",
+    "url": "/yumetsuki-blog/static/media/七海.e662dbbe.jpg"
+  },
+  {
+    "revision": "b33acab2772657e03271dec57268f495",
+    "url": "/yumetsuki-blog/static/media/六芒星.b33acab2.png"
+  },
+  {
+    "revision": "af9c791a62d0b34fb9662a0bb8c7ac77",
+    "url": "/yumetsuki-blog/static/media/前辈.af9c791a.jpg"
+  },
+  {
+    "revision": "0e9e64e799d56268a3bcc4ab77510493",
+    "url": "/yumetsuki-blog/static/media/千咲.0e9e64e7.jpg"
+  },
+  {
+    "revision": "3a458421c16a848574e0b2226c6aed7c",
+    "url": "/yumetsuki-blog/static/media/宁宁tip-confirm.3a458421.jpg"
+  },
+  {
+    "revision": "85adcee0fea9e50548acbd349c002057",
+    "url": "/yumetsuki-blog/static/media/宁宁tip-error.85adcee0.jpg"
+  },
+  {
+    "revision": "35cb6089e02e8b104bed433087f29bad",
+    "url": "/yumetsuki-blog/static/media/羽月.35cb6089.jpg"
+  },
+  {
+    "revision": "0c9cdb94b1c46eaec3b38dc6a693636f",
+    "url": "/yumetsuki-blog/static/media/锉刀.0c9cdb94.jpg"
   }
 ]);
