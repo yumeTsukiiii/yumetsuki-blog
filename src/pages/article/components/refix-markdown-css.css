@@ -14,3 +14,7 @@
 .markdown ul li {
     font-size: 20px;
 }
+
+.markdown img {
+    max-width: 100%;
+}
