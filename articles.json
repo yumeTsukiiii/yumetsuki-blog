@@ -1,7 +1,13 @@
 [
   {
+    "title": "多语言微服务+docker架构应用搭建教程(三)：创建基于Spring Cloud的其它微服务 (Java)",
+    "brief": "构建多语言微服务demo系列教程三，主要阐述了如何基于Spring Cloud构建其它微服务。",
+    "file": "multi-language-micro-service-tourial-v2.md",
+    "time": "2019-7-10"
+  },
+  {
     "title": "多语言微服务+docker架构应用搭建教程(二)：创建服务注册中心(java)",
-    "brief": "构建多语言微服务demo系列教程一，主要阐述了如何使用Spring Cloud(java)创建服务注册中心，以及如何使用docker进行部署",
+    "brief": "构建多语言微服务demo系列教程二，主要阐述了如何使用Spring Cloud(java)创建服务注册中心，以及如何使用docker进行部署",
     "file": "multi-language-micro-service-tourial-v2.md",
     "time": "2019-7-10"
   },
@@ -9,7 +15,7 @@
     "title": "多语言微服务+docker架构应用搭建教程(一)：环境搭建",
     "brief": "构建多语言微服务demo系列教程一，主要阐述了docker环境搭建以及Spring Cloud环境搭建",
     "file": "multi-language-micro-service-tourial-v1.md",
-    "time": "2017-7-10"
+    "time": "2019-7-10"
   },
   {
     "title": "关于react-router和githubpage一起使用的坑",
