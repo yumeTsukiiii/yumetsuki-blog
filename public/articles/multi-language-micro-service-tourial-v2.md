@@ -122,10 +122,10 @@ docker build --tag=demo-eureka-server .
 
 4. 创建并运行容器
 
-> 使用以下命令创建并运行容器
+> 使用以下命令创建并运行容器，将docker 8080端口(后者)映射到主机8080端口(前者)
 
 ```
-docker run demo-eureka-server
+docker run -p 8080:8080 demo-eureka-server
 ```
 
 > 您还可以使用以下命令查看容器状态

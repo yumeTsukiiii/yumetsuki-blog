@@ -2,41 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5523857-a490-432f-b6f5-b90f383d9dfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/articles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/2.f958a6dd.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/2.f958a6dd.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.5e687dbd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.5e687dbd.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/github.14c8c443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/mine-bilibili.d1d9119e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-100.987b8457.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-100.e9dbbe8a.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-100italic.6232f43d.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-100italic.d704bb3d.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-300.55536c8e.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-300.a1471d1d.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-300italic.210a7c78.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-300italic.d69924b9.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-400.5d4aeb4e.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-400.bafb105b.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-400italic.9680d5a0.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-400italic.d8bcbe72.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-500.28546717.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-500.de8b7431.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-500italic.510dec37.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-500italic.ffcc050b.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-700.037d8304.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-700.cf6613d1.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-700italic.010c1aee.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-700italic.846d1890.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-900.19b7a0ad.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-900.8c2ade50.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-900italic.7b770d6c.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/roboto-latin-900italic.bc833e72.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/shinku-horizontal-back.2c445da1.jpeg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -119,11 +88,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/articles.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="374">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-636">
+                <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v3.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="56" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -163,6 +156,8 @@
         <option value="$PROJECT_DIR$/src/pages/yuzu-auth/YuzuAuth.js" />
         <option value="$PROJECT_DIR$/src/pages/yuzu-auth/yuzu-auth.css" />
         <option value="$PROJECT_DIR$/src/pages/article/components/refix-markdown-css.css" />
+        <option value="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md" />
+        <option value="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v3.md" />
         <option value="$PROJECT_DIR$/public/articles.json" />
       </list>
     </option>
@@ -447,7 +442,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24396000" />
+    <option name="totallyTimeSpent" value="27556000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,9 +455,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11064129" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -474,7 +468,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3180723" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.43373495" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -729,10 +723,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="56" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/articles.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="374">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-636">
+            <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
