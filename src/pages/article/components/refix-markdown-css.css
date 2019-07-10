@@ -16,9 +16,19 @@
 }
 
 .markdown img {
-    max-width: 100%;
+    max-width: 90%;
+    margin: 4vh 0 4vh 4.5vw;
 }
 
 .markdown code {
     font-size: 1.5em;
+    color: white;
+    text-overflow: ellipsis;
+}
+
+.markdown pre {
+    overflow: hidden;
+    background-color: #000a;
+    margin: 2vh 4vw;
+    padding: 16px;
 }
