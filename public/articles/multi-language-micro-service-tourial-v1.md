@@ -64,4 +64,23 @@ sudo docker --version
 #### 2. Spring Cloud环境搭建
 > 以下环境搭建方法使用IntelliJ IDEA Ultimate，请确保您能够使用它(学生可使用学生邮箱到jetbrains官网申请免费使用
 * 安装Spring Initializr插件
-> 当你使用File > New > Project时，您应当看到以下内容
+> 当你使用File > New > Project时，您应当看到以下内容 
+
+[![ZgPsvq.md.png](https://s2.ax1x.com/2019/07/10/ZgPsvq.md.png)](https://imgchr.com/i/ZgPsvq)
+
+> 如果没有发现Spring Initializr，请前往路径 File > Settings > Plugin (windows) / IDEA > Preferences > Plugin (macOS) 搜索Spring Boot插件下载并重启IDEA
+
+* 完成上一步后，点击next，如下图所示，重点在于Type的选择，通常选择第一个或者第三个
+
+[![ZgFEm6.png](https://s2.ax1x.com/2019/07/10/ZgFEm6.png)](https://imgchr.com/i/ZgFEm6)
+
+* 继续，点击next，选择需要的Spring组件，这个具体项目有关
+
+[![ZgFQ1A.png](https://s2.ax1x.com/2019/07/10/ZgFQ1A.png)](https://imgchr.com/i/ZgFQ1A)
+
+* 继续，点击next，填写工程目录和名称，最后finish即可。
+
+* 关于初始化项目失败，出现时间过长或者http proxy的问题。
+> 出现该问题通常都是国内墙太高的原因，maven或者gradle的源repository下载速率太慢，修改maven或者gradle源repo为阿里云镜像即可
+
+> 具体可参照该技术文章 [maven和gradle全局修改镜像/gradle局部工程修改镜像](https://blog.csdn.net/superbeyone/article/details/86063787)
