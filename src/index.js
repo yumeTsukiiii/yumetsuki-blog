@@ -48,11 +48,11 @@ const ClickEffectApp = function () {
                 effectIcon.classList.add('click-effect');
             }, 0);
         };
-        // document.body.style.cursor = `${process.env.PUBLIC_URL}/SizeAll.cur !important`
+
     }, []);
 
     return (
-        <div>
+        <div style={{ cursor: `url(${process.env.PUBLIC_URL}/SizeAll.cur), auto` }}>
             <FavoriteIcon id="effect-icon" className={"click-effect click-absolute"} style={{color: 'rgb(255, 82, 82)'}}/>
             <App/>
         </div>
