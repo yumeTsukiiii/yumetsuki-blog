@@ -47,7 +47,8 @@ const ClickEffectApp = function () {
                 effectIcon.style.top = `${e.clientY - effectIcon.clientHeight / 2}px`;
                 effectIcon.classList.add('click-effect');
             }, 0);
-        }
+        };
+        // document.body.style.cursor = `${process.env.PUBLIC_URL}/SizeAll.cur !important`
     }, []);
 
     return (

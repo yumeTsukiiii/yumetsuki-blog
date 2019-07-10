@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5523857-a490-432f-b6f5-b90f383d9dfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Riryka - 君だけの僕.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SizeAll.cur" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/news.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/news.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/article/components/refix-markdown-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/article/components/refix-markdown-css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mine/mine.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,22 +27,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/yuzu-auth/YuzuAuth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1804">
-              <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+            <state relative-caret-position="113">
+              <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -44,19 +39,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/router/router.js">
+        <entry file="file://$PROJECT_DIR$/public/news.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+            <state relative-caret-position="66">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -64,8 +50,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="-787">
               <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -73,8 +68,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="681">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="337">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/components/scroll-view/ScrollView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,39 +88,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/article/components/refix-markdown-css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" selection-start-line="10" selection-end-line="11" />
+            <state relative-caret-position="22">
+              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/articles.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/public/manifest.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-636">
-                <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v3.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="56" />
+              <first_editor relative-caret-position="244">
+                <caret line="164" selection-start-line="164" selection-end-line="164" />
               </first_editor>
               <second_editor />
             </state>
@@ -145,20 +135,21 @@
         <option value="$PROJECT_DIR$/src/pages/article/article.js" />
         <option value="$PROJECT_DIR$/src/lib/components/simple-audio/SimpleAudio.js" />
         <option value="$PROJECT_DIR$/public/articles/react-router-problem-2019-6-16" />
-        <option value="$PROJECT_DIR$/src/pages/mine/mine.js" />
         <option value="$PROJECT_DIR$/src/pages/article/components/ArticleDialog.js" />
         <option value="$PROJECT_DIR$/src/pages/main/main.js" />
         <option value="$PROJECT_DIR$/src/pages/main/main.css" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/router/router.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/pages/yuzu-auth/YuzuAuth.js" />
         <option value="$PROJECT_DIR$/src/pages/yuzu-auth/yuzu-auth.css" />
-        <option value="$PROJECT_DIR$/src/pages/article/components/refix-markdown-css.css" />
-        <option value="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md" />
         <option value="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v3.md" />
         <option value="$PROJECT_DIR$/public/articles.json" />
+        <option value="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md" />
+        <option value="$PROJECT_DIR$/src/pages/article/components/refix-markdown-css.css" />
+        <option value="$PROJECT_DIR$/public/news.json" />
+        <option value="$PROJECT_DIR$/src/pages/mine/mine.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -177,6 +168,11 @@
             <path>
               <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -217,6 +213,14 @@
               <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="scroll-view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,6 +251,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -392,7 +404,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -403,9 +415,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
@@ -442,7 +456,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27556000" />
+    <option name="totallyTimeSpent" value="29784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,9 +470,10 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11064129" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1726568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
@@ -516,15 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/components/scroll-view/ScrollView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66" />
@@ -548,9 +554,6 @@
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/bilibili/Bilibili.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -623,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/articles/react-router-problem-2019-6-16.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -660,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2092">
@@ -678,13 +664,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/宁宁tip.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/yuzu-auth/yuzu-auth.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -699,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/yuzu-auth/YuzuAuth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1804">
@@ -716,18 +688,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/article/components/refix-markdown-css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v3.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="56" />
+            <caret column="2" selection-start-column="2" selection-end-column="56" />
           </first_editor>
           <second_editor />
         </state>
@@ -735,18 +700,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/articles.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="-39">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/components/scroll-view/scroll-view.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/components/scroll-view/ScrollView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v2.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-636">
-            <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+          <first_editor relative-caret-position="244">
+            <caret line="164" selection-start-line="164" selection-end-line="164" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/article/components/refix-markdown-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-787">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/news.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="148" column="17" selection-start-line="148" selection-start-column="17" selection-end-line="148" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/SvgIcon/SvgIcon.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="90" />
         </state>
       </provider>
     </entry>

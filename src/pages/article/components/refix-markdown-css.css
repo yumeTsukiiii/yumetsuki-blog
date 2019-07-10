@@ -1,5 +1,5 @@
 .markdown {
-    color: #0009;
+    color: #000b;
 }
 
 .markdown blockquote {
@@ -17,4 +17,8 @@
 
 .markdown img {
     max-width: 100%;
+}
+
+.markdown code {
+    font-size: 1.5em;
 }
