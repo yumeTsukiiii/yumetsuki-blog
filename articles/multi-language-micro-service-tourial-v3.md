@@ -49,18 +49,22 @@ eureka:
 
 * 打包应用(参照第二篇教程)
 
-* 使用Dockerfile构建镜像(参照第二篇教程)
+* 使用Dockerfile构建镜像
+
+```
+docker build --tag=demo-service .
+```
 
 * 运行服务注册中心(使用docker运行)
 
 ```
-docker run -p 8083:8083 demo-service
-```
-
-* 运行demo应用(使用demo应用)
-
-```
 docker run -p 8080:8080 demo-eureka-server
+```
+
+* 运行demo应用
+
+```
+docker run -p 8083:8083 demo-service
 ```
 
 * 查看结果
@@ -88,6 +92,32 @@ docker inspect <container id>
 > 因此在运行服务注册中心时，可以固定容器的ip地址。详情参考该篇文章 (https://www.cnblogs.com/milton/p/9858955.html)
 
 > 其它注册进服务注册中心的微服务，将中心ip地址配置为服务注册中心固定的ip地址即可。
+
+> 你还可以使用docker-compose或者kubernetes这样的容器编排工具来连接docker容器和分配ip
+
+> 本文后续会使用到docker-compose
+
+> 在那之前，我们稍微修改下运行服务注册中心的方法
+
+> 首先，使用以下命令创建子网
+
+```
+docker network create --subnet=192.168.100.0/24 div-network
+```
+
+> 运行服务注册中心，这里不用192.168.100.1作为ip的原因是，这个地址是默认的网关地址
+
+```
+docker run -p 8080:8080 --net div-network --ip 192.168.100.2 demo-eureka-server
+```
+
+> 运行该Java服务，也要指定运行在div-network下，因为docker容器之间具有网络隔离，其中一种解决方案是让它们都在同一个子网下
+
+```
+docker run -p 8083:8083 --net div-network --ip 192.168.100.3 demo-service
+```
+
+> 注意，本篇教程的代码不包含在博主github工程中，因此请不要和以下教程中的服务一起运行，可能会导致端口号和ip地址冲突
 
 
 
