@@ -30,3 +30,5 @@
 > 如项目存在问题，可在博主的github博客源码处或者项目源码处提issue
 
 > 博主的github仓库: https://github.com/yumetsukiiii
+
+> 本项目地址: https://github.com/yumeTsukiiii/Spring-Cloud-Sidecar-docker-demo
