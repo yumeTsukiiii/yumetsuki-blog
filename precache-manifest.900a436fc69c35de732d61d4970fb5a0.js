@@ -1,27 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "118802c9deb9f23624424d648190b838",
+    "revision": "ced879b4ce17b6ce6d47b0d2aeac559e",
     "url": "/yumetsuki-blog/index.html"
   },
   {
-    "revision": "363925e352b8f28df9b2",
+    "revision": "d27f8de237d9a579f10a",
     "url": "/yumetsuki-blog/static/css/2.f958a6dd.chunk.css"
   },
   {
-    "revision": "0e7e4a486a67fb83e158",
-    "url": "/yumetsuki-blog/static/css/main.f4218332.chunk.css"
+    "revision": "a83924f0200327a92c1b",
+    "url": "/yumetsuki-blog/static/css/main.7c054e46.chunk.css"
   },
   {
-    "revision": "363925e352b8f28df9b2",
-    "url": "/yumetsuki-blog/static/js/2.b72f1e26.chunk.js"
+    "revision": "d27f8de237d9a579f10a",
+    "url": "/yumetsuki-blog/static/js/2.d73ec9a7.chunk.js"
   },
   {
-    "revision": "0e7e4a486a67fb83e158",
-    "url": "/yumetsuki-blog/static/js/main.fb16dbe6.chunk.js"
+    "revision": "a83924f0200327a92c1b",
+    "url": "/yumetsuki-blog/static/js/main.820a34fd.chunk.js"
   },
   {
     "revision": "60aa56e7cb3d9475ee36",
     "url": "/yumetsuki-blog/static/js/runtime~main.5e687dbd.js"
+  },
+  {
+    "revision": "8f4a019368bd4198084db9a4539b5992",
+    "url": "/yumetsuki-blog/static/media/CHR_幸_基_私服-transparent-normal.8f4a0193.png"
+  },
+  {
+    "revision": "f9a340a6ce6a4443ff977e15d865a8f4",
+    "url": "/yumetsuki-blog/static/media/CHR_幸_基_私服-transparent-smail.f9a340a6.png"
+  },
+  {
+    "revision": "b1aa9a51305d42a0e087fab06d0fc714",
+    "url": "/yumetsuki-blog/static/media/CHR_幸_基_私服-transparent-think.b1aa9a51.png"
+  },
+  {
+    "revision": "a1ed0c2651b9492fd15c9ddaf2186dad",
+    "url": "/yumetsuki-blog/static/media/bilibili-icon.a1ed0c26.jpeg"
   },
   {
     "revision": "14c8c443864a124fa4393931f07ed89c",
