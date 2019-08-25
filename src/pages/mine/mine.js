@@ -28,8 +28,13 @@ import News from "../news/News";
 import Bilibili from "../bilibili/Bilibili";
 import Fab from "@material-ui/core/Fab";
 import GithubImg from '../../assets/github.jpg';
+import BilibiliImage from '../../assets/bilibili-icon.jpeg'
 import Tooltip from "@material-ui/core/Tooltip";
-
+import YukiNormal from "../../assets/CHR_幸_基_私服-transparent-normal.png"
+import YukiThink from "../../assets/CHR_幸_基_私服-transparent-think.png"
+import YukiSmail from "../../assets/CHR_幸_基_私服-transparent-smail.png"
+import './mine.css'
+import {getElementPageLeft, getElementPageTop, randomFrom} from "../../util/utils";
 
 Mine.propTypes = {
     // Injected by the documentation to work in an iframe.
@@ -107,6 +112,23 @@ export default function Mine(props) {
     const [mobileOpen, setMobileOpen] = React.useState(false);
     const [mainHeight, setMainHeight] = useState(0);
 
+    const yukiMessage = [
+        {
+            text: '梦月君每天都要写好多好多代码，看着他那样辛苦，却又帮不上什么忙，总觉得自己该做点什么。。。',
+            img: YukiThink
+        },
+        {
+            text: '听我说听我说，梦月君他，今天也和我说了好多好多话呢！',
+            img: YukiSmail
+        },
+        {
+            text: '你好啊，是来找梦月君玩的吗？',
+            img: YukiNormal
+        }
+    ];
+
+    const [currentMessageIndex, setCurrentMessageIndex] = useState(-1);
+
     const drawerNavList = [
         {
             icon: <BookIcon/>,
@@ -143,8 +165,39 @@ export default function Mine(props) {
     }
 
     useEffect(() => {
+        if (window.innerWidth >= 480) {
+            calculateChatPosition();
+        }
         setMainHeight(window.innerHeight);
     }, []);
+
+    /**
+     * 计算白羽幸对话框的位置
+     * */
+    const calculateChatPosition = () => {
+        let yuki = document.getElementById('yuki');
+        let leftPostion = getElementPageLeft(yuki);
+        let topPosition = getElementPageTop(yuki);
+        let yukiChat = document.getElementById('yuki-chat');
+        yukiChat.style.right = window.innerWidth - leftPostion + 64 + yukiChat.offsetWidth * 0.4 + 'px';
+        yukiChat.style.bottom = window.innerHeight - topPosition + yukiChat.offsetHeight + 'px';
+    };
+
+    /**
+     * 点击白羽幸触发对话
+     * */
+    const yukiClick = () => {
+        if (currentMessageIndex >= 0) return;
+        setCurrentMessageIndex(randomFrom(0, yukiMessage.length - 1));
+        let yukiChat = document.getElementById('yuki-chat');
+        yukiChat.classList.remove('yuki-chat-hide');
+        yukiChat.classList.add('yuki-chat-show');
+        setTimeout(() => {
+            setCurrentMessageIndex(-1);
+            yukiChat.classList.remove('yuki-chat-show');
+            yukiChat.classList.add('yuki-chat-hide');
+        }, 3000);
+    };
 
     const drawer = (
         <div>
@@ -230,14 +283,82 @@ export default function Mine(props) {
                     <Route path="/mine/bilibili" component={Bilibili}/>
                 </ScrollView>
             </div>
-            <a href="https://github.com/yumeTsukiiii" target="_Black" >
-                <Tooltip title="梦月的github地址">
-                    <Fab color='secondary' aria-label="Add" className={classes.fab}>
 
-                        <Avatar src={GithubImg}/>
-                    </Fab>
-                </Tooltip>
-            </a>
+            {/**yuki对话框*/}
+            <div id={'yuki-chat'}
+                 className={'yuki-chat-container'}>
+                <div className={'yuki-chat-card'}>
+                    <Typography
+                        variant={"subtitle1"}
+                        style={{wordBreak: 'break-word', padding: '4px 8px'}}>
+                        {
+                            currentMessageIndex >= 0 ?
+                                yukiMessage[currentMessageIndex].text: ''
+                        }
+                    </Typography>
+                </div>
+                <div className={'yuki-chat-bubble-container'}>
+                    <div className={'yuki-chat-bubble-2'}/>
+                    <div className={'yuki-chat-bubble-1'}/>
+                    <div className={'yuki-chat-bubble-0'}/>
+                </div>
+            </div>
+
+            {
+                (() => {
+                   if (window.innerWidth < 480) {
+                       return (
+                           <a href="https://github.com/yumeTsukiiii"
+                              className={classes.fab}
+                              target="_Black" >
+                               <Tooltip title="梦月的github地址">
+                                   <Fab color='secondary' aria-label="Add">
+                                       <Avatar src={GithubImg}/>
+                                   </Fab>
+                               </Tooltip>
+                           </a>
+                       )
+                   } else {
+                       /**yuki立绘*/
+                       return (
+                           <div id={'yuki'} className={`${classes.fab} yuki-hover`}>
+                               <Grid direction={"column"}
+                                     container
+                                     spacing={2}
+                                     style={{position: 'absolute'}}>
+                                   <Grid item>
+                                       <a href="https://github.com/yumeTsukiiii"
+                                          className={'yuki-item-hover-0'}
+                                          target="_Black" >
+                                           <Tooltip title="梦月的github地址">
+                                               <Fab color='secondary' aria-label="Add">
+                                                   <Avatar src={GithubImg}/>
+                                               </Fab>
+                                           </Tooltip>
+                                       </a>
+                                   </Grid>
+                                   <Grid item>
+                                       <a href="https://space.bilibili.com/35748208"
+                                          className={'yuki-item-hover-1'}
+                                          target="_Black" >
+                                           <Tooltip title="梦月的bilibili空间">
+                                               <Fab color='secondary' aria-label="Add">
+                                                   <Avatar src={BilibiliImage}/>
+                                               </Fab>
+                                           </Tooltip>
+                                       </a>
+                                   </Grid>
+                               </Grid>
+                               <img src={
+                                   currentMessageIndex >= 0 ? yukiMessage[currentMessageIndex].img
+                                       : YukiNormal
+                               }
+                                    onClick={yukiClick}/>
+                           </div>
+                       )
+                   }
+                })()
+            }
 
         </div>
     );
