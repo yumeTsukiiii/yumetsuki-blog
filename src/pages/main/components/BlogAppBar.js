@@ -4,6 +4,7 @@ import AppBar from '@material-ui/core/AppBar/index';
 import Toolbar from '@material-ui/core/Toolbar/index';
 import Typography from '@material-ui/core/Typography/index';
 import Avatar from "@material-ui/core/Avatar/index";
+import ShinkuAvatar from "../../../assets/shinku-avatar.jpeg";
 
 const useStyles = makeStyles(theme => ({
     avatar: {
@@ -21,7 +22,7 @@ export default function BlogAppBar() {
         <Fragment>
             <AppBar position="fixed">
                 <Toolbar>
-                    <Avatar alt="yumetsuki" src="https://avatars1.githubusercontent.com/u/39160707?s=400&u=bac06768a938221632caa8a270e6f60dd1e27d05&v=4" className={classes.avatar} />
+                    <Avatar alt="yumetsuki" src={ShinkuAvatar} className={classes.avatar} />
                     <Typography variant="h6" className={classes.title}>
                         遥远世界的梦
                     </Typography>

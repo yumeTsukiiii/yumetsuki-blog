@@ -33,6 +33,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 import YukiNormal from "../../assets/CHR_幸_基_私服-transparent-normal.png"
 import YukiThink from "../../assets/CHR_幸_基_私服-transparent-think.png"
 import YukiSmail from "../../assets/CHR_幸_基_私服-transparent-smail.png"
+import ShinkuAvatar from "../../assets/shinku-avatar.jpeg";
 import './mine.css'
 import {getElementPageLeft, getElementPageTop, randomFrom} from "../../util/utils";
 
@@ -205,7 +206,7 @@ export default function Mine(props) {
                   justify="center"
                   className={classes.drawerHeader}>
                 <Avatar alt="yumetsuki" style={{width: '64px', height: '64px'}}
-                        src="https://avatars1.githubusercontent.com/u/39160707?s=400&u=bac06768a938221632caa8a270e6f60dd1e27d05&v=4"/>
+                        src={ShinkuAvatar}/>
                 <div style={{margin: '8px'}}/>
                 <Typography variant="h6" style={{color: "white"}}>
                     二阶堂梦月

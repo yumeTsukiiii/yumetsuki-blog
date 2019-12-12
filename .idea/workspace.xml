@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5523857-a490-432f-b6f5-b90f383d9dfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/CHR_幸_基_私服-transparent-normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/CHR_幸_基_私服-transparent-smail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/CHR_幸_基_私服-transparent-think.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/bilibili-icon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/mine/mine.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/shinku-avatar.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/2.f958a6dd.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/2.f958a6dd.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.5e687dbd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.5e687dbd.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/main/components/BlogAppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/main/components/BlogAppBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/mine/mine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/mine/mine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,11 +28,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="309" column="52" selection-start-line="309" selection-start-column="52" selection-end-line="309" selection-end-column="52" />
+            <state relative-caret-position="107">
+              <caret line="208" column="41" selection-start-line="208" selection-start-column="41" selection-end-line="208" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/news.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/main/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1953">
+              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -36,19 +62,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/utils.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/main/components/BlogAppBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="59">
+              <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.css">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+            <state relative-caret-position="1040">
+              <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-352">
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#74#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="803">
+              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -69,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/pages/bilibili/Bilibili.js" />
         <option value="$PROJECT_DIR$/src/lib/components/loading-snack/LoadingSnack.js" />
@@ -79,7 +140,6 @@
         <option value="$PROJECT_DIR$/public/articles/react-router-problem-2019-6-16" />
         <option value="$PROJECT_DIR$/src/pages/article/components/ArticleDialog.js" />
         <option value="$PROJECT_DIR$/src/pages/main/main.css" />
-        <option value="$PROJECT_DIR$/src/router/router.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/pages/yuzu-auth/YuzuAuth.js" />
         <option value="$PROJECT_DIR$/src/pages/yuzu-auth/yuzu-auth.css" />
@@ -96,8 +156,12 @@
         <option value="$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v0.md" />
         <option value="$PROJECT_DIR$/src/util/utils.js" />
         <option value="$PROJECT_DIR$/src/pages/mine/mine.css" />
-        <option value="$PROJECT_DIR$/src/pages/mine/mine.js" />
         <option value="$PROJECT_DIR$/src/pages/main/main.js" />
+        <option value="$PROJECT_DIR$/build/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/router/router.js" />
+        <option value="$PROJECT_DIR$/src/pages/main/components/BlogAppBar.js" />
+        <option value="$PROJECT_DIR$/src/pages/mine/mine.js" />
       </list>
     </option>
   </component>
@@ -111,52 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="mine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -282,7 +300,23 @@
             <path>
               <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -295,7 +329,13 @@
               <item name="react-blog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="mine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -367,7 +407,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63113000" />
+    <option name="totallyTimeSpent" value="65418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,8 +420,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23114869" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23114869" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -393,7 +434,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.43563068" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.43563068" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -429,7 +470,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/pages/mine/mine.js</url>
-          <line>173</line>
+          <line>174</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -652,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/articles/multi-language-micro-service-tourial-v0.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -669,31 +703,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/news/News.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="36" column="39" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="39" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/main/components/BlogAppBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -713,16 +728,6 @@
           <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -764,30 +769,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.js">
+    <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="309" column="52" selection-start-line="309" selection-start-column="52" selection-end-line="309" selection-end-column="52" />
+        <state>
+          <caret column="1837" selection-start-column="1837" selection-end-column="1837" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-352">
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="1953">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/pages/main/components/BlogAppBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="59">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/mine/mine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="208" column="41" selection-start-line="208" selection-start-column="41" selection-end-line="208" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/news.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>

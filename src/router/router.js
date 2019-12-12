@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { HashRouter, Route, Redirect, Switch } from "react-router-dom";
 import React from "react";
 
 import Main from '../pages/main/main'
@@ -7,14 +7,14 @@ import YuzuAuth from "../pages/yuzu-auth/YuzuAuth";
 
 function mainRouter() {
     return (
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <Switch>
                 <Route exact path="/" component={YuzuAuth}/>
                 <Route path="/main" component={Main} />
                 <Route path="/mine" component={Mine}/>
                 <Redirect to="/"/>
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
