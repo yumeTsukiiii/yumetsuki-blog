@@ -112,21 +112,6 @@ export default function Mine(props) {
     const [mobileOpen, setMobileOpen] = React.useState(false);
     const [mainHeight, setMainHeight] = useState(0);
 
-    const yukiMessage = [
-        {
-            text: '梦月君每天都要写好多好多代码，看着他那样辛苦，却又帮不上什么忙，总觉得自己该做点什么。。。',
-            img: YukiThink
-        },
-        {
-            text: '听我说听我说，梦月君他，今天也和我说了好多好多话呢！',
-            img: YukiSmail
-        },
-        {
-            text: '你好啊，是来找梦月君玩的吗？',
-            img: YukiNormal
-        }
-    ];
-
     const [currentMessageIndex, setCurrentMessageIndex] = useState(-1);
 
     const drawerNavList = [
@@ -198,6 +183,21 @@ export default function Mine(props) {
             yukiChat.classList.add('yuki-chat-hide');
         }, 3000);
     };
+
+    const yukiMessage = [
+        {
+            text: '梦月君每天都要写好多好多代码，看着他那样辛苦，却又帮不上什么忙，总觉得自己该做点什么。。。',
+            img: <img src={YukiThink} onClick={yukiClick}/>
+        },
+        {
+            text: '听我说听我说，梦月君他，今天也和我说了好多好多话呢！',
+            img: <img src={YukiSmail} onClick={yukiClick}/>
+        },
+        {
+            text: '你好啊，是来找梦月君玩的吗？',
+            img: <img src={YukiNormal} onClick={yukiClick}/>
+        }
+    ];
 
     const drawer = (
         <div>
@@ -349,11 +349,10 @@ export default function Mine(props) {
                                        </a>
                                    </Grid>
                                </Grid>
-                               <img src={
+                               {
                                    currentMessageIndex >= 0 ? yukiMessage[currentMessageIndex].img
-                                       : YukiNormal
+                                       : <img src={YukiNormal} onClick={yukiClick}/>
                                }
-                                    onClick={yukiClick}/>
                            </div>
                        )
                    }
