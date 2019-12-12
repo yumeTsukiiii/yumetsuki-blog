@@ -55,7 +55,7 @@ export default function Main(props) {
     const introList = [
         {
             title: '我是谁？',
-            content: '二阶堂梦月，现某高校二年生，一个活在遥远世界的梦里的普通男生，喜欢编程，吉他。'
+            content: '二阶堂梦月，现某高校三年生，一个活在遥远世界的梦里的普通男生，喜欢编程，吉他。'
         },
         {
             title: '背景和头像',
